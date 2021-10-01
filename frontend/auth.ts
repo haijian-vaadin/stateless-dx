@@ -1,4 +1,4 @@
-import { login as loginImpl, LoginResult, logout as logoutImpl } from '@vaadin/flow-frontend';
+import { login as loginImpl, LoginResult, logout as logoutImpl } from '@vaadin/fusion-frontend';
 import { appStore } from './stores/app-store';
 
 interface Authentication {

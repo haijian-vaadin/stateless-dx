@@ -1,5 +1,5 @@
 import '@polymer/iron-icon';
-import { EndpointError } from '@vaadin/flow-frontend';
+import { EndpointError } from '@vaadin/fusion-frontend';
 import { showNotification } from '@vaadin/flow-frontend/a-notification';
 import { Binder, field } from '@vaadin/form';
 import '@vaadin/vaadin-button';
