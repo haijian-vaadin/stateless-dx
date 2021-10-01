@@ -1,5 +1,8 @@
 package com.example.application.security;
 
+import javax.crypto.spec.SecretKeySpec;
+import java.util.Base64;
+
 import com.vaadin.flow.spring.security.VaadinWebSecurityConfigurerAdapter;
 
 import org.springframework.context.annotation.Bean;
@@ -9,6 +12,7 @@ import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.oauth2.jose.jws.JwsAlgorithms;
 
 @EnableWebSecurity
 @Configuration
@@ -29,6 +33,11 @@ public class SecurityConfiguration extends VaadinWebSecurityConfigurerAdapter {
 
         super.configure(http);
         setLoginView(http, "/login", LOGOUT_URL);
+        
+        setStatelessAuthentication(http, new SecretKeySpec(
+                    Base64.getUrlDecoder()
+                            .decode("I72kIcB1UrUQVHVUAzgweE-BLc0bF8mLv9SmrgKsQAk"),
+                    JwsAlgorithms.HS256), "statelessapp");
     }
 
     @Override
