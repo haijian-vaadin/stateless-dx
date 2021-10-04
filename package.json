@@ -22,7 +22,7 @@
     "@vaadin/vaadin-confirm-dialog": "22.0.0-alpha6",
     "@vaadin/vaadin-context-menu": "22.0.0-alpha6",
     "@vaadin/vaadin-cookie-consent": "22.0.0-alpha6",
-    "@vaadin/vaadin-core-shrinkwrap": "22.0.0-alpha5",
+    "@vaadin/vaadin-core-shrinkwrap": "22.0.0-alpha6",
     "@vaadin/vaadin-crud": "22.0.0-alpha6",
     "@vaadin/vaadin-custom-field": "22.0.0-alpha6",
     "@vaadin/vaadin-date-picker": "22.0.0-alpha6",
@@ -47,7 +47,7 @@
     "@vaadin/vaadin-radio-button": "22.0.0-alpha6",
     "@vaadin/vaadin-rich-text-editor": "22.0.0-alpha6",
     "@vaadin/vaadin-select": "22.0.0-alpha6",
-    "@vaadin/vaadin-shrinkwrap": "22.0.0-alpha5",
+    "@vaadin/vaadin-shrinkwrap": "22.0.0-alpha6",
     "@vaadin/vaadin-split-layout": "22.0.0-alpha6",
     "@vaadin/vaadin-tabs": "22.0.0-alpha6",
     "@vaadin/vaadin-template-renderer": "22.0.0-alpha6",
@@ -109,7 +109,7 @@
       "@vaadin/vaadin-confirm-dialog": "22.0.0-alpha6",
       "@vaadin/vaadin-context-menu": "22.0.0-alpha6",
       "@vaadin/vaadin-cookie-consent": "22.0.0-alpha6",
-      "@vaadin/vaadin-core-shrinkwrap": "22.0.0-alpha5",
+      "@vaadin/vaadin-core-shrinkwrap": "22.0.0-alpha6",
       "@vaadin/vaadin-crud": "22.0.0-alpha6",
       "@vaadin/vaadin-custom-field": "22.0.0-alpha6",
       "@vaadin/vaadin-date-picker": "22.0.0-alpha6",
@@ -134,7 +134,7 @@
       "@vaadin/vaadin-radio-button": "22.0.0-alpha6",
       "@vaadin/vaadin-rich-text-editor": "22.0.0-alpha6",
       "@vaadin/vaadin-select": "22.0.0-alpha6",
-      "@vaadin/vaadin-shrinkwrap": "22.0.0-alpha5",
+      "@vaadin/vaadin-shrinkwrap": "22.0.0-alpha6",
       "@vaadin/vaadin-split-layout": "22.0.0-alpha6",
       "@vaadin/vaadin-tabs": "22.0.0-alpha6",
       "@vaadin/vaadin-template-renderer": "22.0.0-alpha6",
@@ -169,6 +169,6 @@
       "workbox-precaching": "6.2.0",
       "workbox-webpack-plugin": "6.2.0"
     },
-    "hash": "8634cec5c5f693b5393b1f47e3f3bdf7e7f96706e0e0be00d311686884dd0cd7"
+    "hash": "be5c3727a19efb4b6c18ac4766393f7e541c41c7edb34606b817dac725b93650"
   }
 }

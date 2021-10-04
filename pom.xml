@@ -11,7 +11,7 @@
 
     <properties>
         <java.version>11</java.version>
-        <vaadin.version>22.0.0.alpha5</vaadin.version>
+        <vaadin.version>22.0.0.alpha6</vaadin.version>
     </properties>
 
     <parent>
@@ -97,11 +97,11 @@
             <version>1.7.1</version>
         </dependency>
 
-        <!-- <dependency>
+        <dependency>
             <groupId>com.vaadin</groupId>
             <artifactId>exampledata</artifactId>
             <version>4.0.0</version>
-        </dependency> -->
+        </dependency>
 
         <dependency>
             <groupId>com.h2database</groupId>
